@@ -2,8 +2,8 @@
 A simple utility for switching to another [i3](https://github.com/i3/i3) workspace, written in c using [i3ipc-glib](https://github.com/acrisci/i3ipc-glib).
 
 ## Features
-* Easily switch to previous/next workspace, based on the numerical workspace id.
-* Easily find an empty workspace.
+* Switch to the previous/next non-empty and empty workspace.
+* Switch to an empty workspace.
 
 ## Limitations
 * Only supports *i3*, not *sway* or other *i3-ipc* compatible window managers. This is caused by its relience on i3ipc-glib, which seems to only support *i3*.
